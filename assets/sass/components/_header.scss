@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: center;
+    div{
+        width: 40%;
+    }
+
+} 
+
+@media (max-width: 576px) {
+    .header{
+        display: flex;
+        justify-content: center;
+        div{
+            width: 100%;
+        }
+    
+    } 
+}

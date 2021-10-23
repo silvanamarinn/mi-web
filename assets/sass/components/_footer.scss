@@ -1,0 +1,82 @@
+.footer{
+    display: flex;
+    width: 100%;
+    background-color:$sable;
+    height: 7em;
+    color:$white;
+    justify-content: space-evenly;
+    padding: 30px;
+
+
+&__derechos{
+    width: 30%;
+    text-align: start;
+}
+&__link{
+    width: 30%;
+    text-align: right;
+    
+    a{
+display: inline-block;
+color:$white;
+text-decoration: none;
+
+}
+
+
+}
+
+&__form{
+button{
+    float: right;
+    background-color:$orangre; 
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+}  
+button:hover{
+    background-color: $white;
+}
+input{
+    height: 30px;
+}
+input:focus {
+   
+    background-color: $orangre;
+  } 
+}
+
+}
+
+@media (max-width: 576px) {
+
+    .footer{
+        flex-wrap: wrap;
+        height: 12em;
+        
+        &__derechos{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+    &__link{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+
+
+
+        
+        a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    
+    }
+}
+
+
+}
+}
